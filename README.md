@@ -1,5 +1,8 @@
 # Run-Skeleton-Run
+
 [Reason8.ai](https://reason8.ai) PyTorch solution for 3rd place [NIPS RL 2017 challenge](https://www.crowdai.org/challenges/nips-2017-learning-to-run/leaderboards?challenge_round_id=12).
+
+[Theano version](https://github.com/fgvbrt/nips_rl)
 
 Additional thanks to [Mikhail Pavlov](https://github.com/fgvbrt) for collaboration.
 
