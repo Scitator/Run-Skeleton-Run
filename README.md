@@ -1,13 +1,11 @@
 # Run-Skeleton-Run
 [Reason8.ai](https://reason8.ai) PyTorch solution for 3rd place [NIPS RL 2017 challenge](https://www.crowdai.org/challenges/nips-2017-learning-to-run/leaderboards?challenge_round_id=12).
 
-Additional thanks to [Michail Pavlov](https://github.com/fgvbrt) for collaboration.
+Additional thanks to [Mikhail Pavlov](https://github.com/fgvbrt) for collaboration.
 
 ## Agent policies
 
 ### no-flip-state-action
-
-![Alt Text](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
 
 ![alt text](https://github.com/Scitator/Run-Skeleton-Run/blob/master/gifs/noflip.gif)
 
@@ -22,6 +20,7 @@ Additional thanks to [Michail Pavlov](https://github.com/fgvbrt) for collaborati
 2. `source activate opensim-rl`
 
 Would like to test baselines? (Need MPI support)
+
 3. `sudo apt-get install openmpi-bin openmpi-doc libopenmpi-dev`
 3+. `sh setup_env_mpi.sh`
 
