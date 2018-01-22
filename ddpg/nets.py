@@ -43,7 +43,7 @@ class Actor(nn.Module):
             if isinstance(layer, nn.Linear):
                 layer.weight.data = fanin_init(layer.weight.data.size())
 
-        for layer in self.feature_net.net:
+        for layer in self.policy_net.net:
             if isinstance(layer, nn.Linear):
                 layer.weight.data.uniform_(-init_w, init_w)
 
