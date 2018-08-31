@@ -21,7 +21,7 @@ class DdpgWrapper(gym.Wrapper):
         action_mean = .5
         action_std = .5
         self.normalize_action = lambda x: (x - action_mean) / action_std
-        self.denormalise_action = lambda x: x * action_std + action_mean
+        self.denormalize_action = lambda x: x * action_std + action_mean
 
     def reset(self, **kwargs):
         return self._reset(**kwargs)
@@ -35,7 +35,7 @@ class DdpgWrapper(gym.Wrapper):
         return observation
 
     def _step(self, action):
-        action = self.denormalise_action(action)
+        action = self.denormalize_action(action)
         total_reward = 0.
         for _ in range(self.skip_frames):
             observation, reward, done, _ = self.env.step(action)
