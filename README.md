@@ -76,3 +76,14 @@ CUDA_VISIBLE_DEVICES="" PYTHONPATH=. python ddpg/train.py \
     --fail-reward -0.2 \
     --reward-scale 10
 ```
+
+## Citation
+Please cite the following paper if you feel this repository useful.
+```
+@article{run_skeleton,
+  title={Run, skeleton, run: skeletal model in a physics-based simulation},
+  author = {Mikhail Pavlov, Sergey Kolesnikov and Sergey M.~Plis},
+  journal={AAAI Spring Symposium Series},
+  year={2018}
+}
+```
